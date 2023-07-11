@@ -1,0 +1,581 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "618037231321" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "J" (id 0) (at 50.8479 2.5424 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "618037231321" (id 1) (at 50.8067 -2.54033 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "618037231321" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "618037231321_0_0"
+      (polyline
+        (pts (xy -52.5 7.62) (xy 47.32 7.62)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy 45.72 -5.08) (xy -45.72 -5.08)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy -45.72 -5.08) (xy -50.8 -5.08)) (stroke (width 0.4064))
+      )
+      (arc (start -52.1894 -3.9654) (mid -51.706 -4.763) (end -50.8218 -5.084)
+        (stroke (width 0.4064) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy -54.1958 5.4896) (xy -52.1894 -3.9654)) (stroke (width 0.4064))
+      )
+      (arc (start -52.2442 7.618) (mid -53.7405 6.9902) (end -54.1869 5.4406)
+        (stroke (width 0.4064) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc (start 47.1094 -3.9654) (mid 46.626 -4.763) (end 45.7418 -5.084)
+        (stroke (width 0.4064) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 49.1158 5.4896) (xy 47.1094 -3.9654)) (stroke (width 0.4064))
+      )
+      (arc (start 47.1642 7.618) (mid 48.6605 6.9902) (end 49.1069 5.4406)
+        (stroke (width 0.4064) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy -7.62 7.62) (xy -7.62 3.302)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -12.7 7.62) (xy -12.7 3.302)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -17.78 7.62) (xy -17.78 3.302)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -22.86 7.62) (xy -22.86 3.302)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -27.94 7.62) (xy -27.94 3.302)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -33.02 7.62) (xy -33.02 3.302)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -38.1 7.62) (xy -38.1 3.302)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -43.18 7.62) (xy -43.18 3.302)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -48.26 7.62) (xy -48.26 3.302)) (stroke (width 0.1524))
+      )
+      (circle (center -7.62 2.54) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center -10.16 -1.778) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center -15.24 -1.778) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center -20.32 -1.778) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center -25.4 -1.778) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center -12.7 2.54) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center -17.78 2.54) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center -22.86 2.54) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center -27.94 2.54) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center -33.02 2.54) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center -30.48 -1.778) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center -35.56 -1.778) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center -40.64 -1.778) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center -45.72 -1.778) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center -38.1 2.54) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center -43.18 2.54) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center -48.26 2.54) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 38.1 7.62) (xy 38.1 3.302)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 33.02 7.62) (xy 33.02 3.302)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 27.94 7.62) (xy 27.94 3.302)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 22.86 7.62) (xy 22.86 3.302)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 17.78 7.62) (xy 17.78 3.302)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 12.7 7.62) (xy 12.7 3.302)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 7.62 7.62) (xy 7.62 3.302)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 7.62) (xy 2.54 3.302)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.54 7.62) (xy -2.54 3.302)) (stroke (width 0.1524))
+      )
+      (circle (center 38.1 2.54) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center 35.56 -1.778) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center 30.48 -1.778) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center 25.4 -1.778) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center 20.32 -1.778) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center 33.02 2.54) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center 27.94 2.54) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center 22.86 2.54) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center 17.78 2.54) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center 12.7 2.54) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center 15.24 -1.778) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center 10.16 -1.778) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center 5.08 -1.778) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center 0.0 -1.778) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center 7.62 2.54) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center 2.54 2.54) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center -2.54 2.54) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 43.18 7.62) (xy 43.18 3.302)) (stroke (width 0.1524))
+      )
+      (circle (center 43.18 2.54) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center 40.64 -1.778) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -45.72 -5.08) (xy -45.72 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -40.64 -5.08) (xy -40.64 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -35.56 -5.08) (xy -35.56 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -30.48 -5.08) (xy -30.48 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -25.4 -5.08) (xy -25.4 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -20.32 -5.08) (xy -20.32 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -15.24 -5.08) (xy -15.24 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -10.16 -5.08) (xy -10.16 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -5.08) (xy 0.0 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 5.08 -5.08) (xy 5.08 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 10.16 -5.08) (xy 10.16 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 15.24 -5.08) (xy 15.24 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 20.32 -5.08) (xy 20.32 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 25.4 -5.08) (xy 25.4 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 30.48 -5.08) (xy 30.48 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 35.56 -5.08) (xy 35.56 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 40.64 -5.08) (xy 40.64 -2.54)) (stroke (width 0.1524))
+      )
+      (circle (center -5.08 -1.778) (radius 0.762)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -5.08 -5.08) (xy -5.08 -2.54)) (stroke (width 0.1524))
+      )
+      (pin bidirectional line (at 43.18 12.7 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 38.1 12.7 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 33.02 12.7 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 27.94 12.7 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 12.7 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 17.78 12.7 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 12.7 12.7 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 7.62 12.7 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 2.54 12.7 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -2.54 12.7 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -7.62 12.7 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -12.7 12.7 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 12.7 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 12.7 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -27.94 12.7 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -33.02 12.7 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -38.1 12.7 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -43.18 12.7 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -48.26 12.7 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 40.64 -10.16 90.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "20"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 35.56 -10.16 90.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "21"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 30.48 -10.16 90.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "22"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 25.4 -10.16 90.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "23"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 20.32 -10.16 90.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "24"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 15.24 -10.16 90.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "25"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 10.16 -10.16 90.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "26"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 5.08 -10.16 90.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "27"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 0.0 -10.16 90.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "28"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -5.08 -10.16 90.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -10.16 -10.16 90.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "30"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -15.24 -10.16 90.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "31"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -10.16 90.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "32"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -25.4 -10.16 90.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "33"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -30.48 -10.16 90.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "34"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -35.56 -10.16 90.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "35"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -40.64 -10.16 90.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "36"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -45.72 -10.16 90.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "37"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -58.42 2.54 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "SHELL"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -58.42 2.54 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "SHELL1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
