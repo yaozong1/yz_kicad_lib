@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "MX"
-		(at -3.35 -8.82 0)
+		(at -2.85 -9.32 0)
 		(layer "F.SilkS")
 		(uuid "7508b4a0-39c3-4549-bd2c-ece725a6c4d9")
 		(effects
@@ -73,8 +73,8 @@
 		(uuid "35f2689b-de1d-498f-bee5-47e4bc1f6785")
 	)
 	(fp_line
-		(start -5.65 5.98)
-		(end -5.65 -10.32)
+		(start -4.25 5.98)
+		(end -4.25 -10.42)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -83,8 +83,8 @@
 		(uuid "5689d458-cae5-400d-b672-96b46af261ec")
 	)
 	(fp_line
-		(start 5.65 -10.42)
-		(end -5.65 -10.42)
+		(start 4.25 -10.42)
+		(end -4.25 -10.42)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -93,8 +93,8 @@
 		(uuid "9eee1722-3c4b-4a08-9be2-77099a71d4df")
 	)
 	(fp_line
-		(start 5.65 5.98)
-		(end -5.65 5.98)
+		(start 4.25 5.98)
+		(end -4.25 5.98)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -103,54 +103,14 @@
 		(uuid "0f55c404-fdcc-4b25-a5e0-90b06eac56d9")
 	)
 	(fp_line
-		(start 5.65 5.98)
-		(end 5.65 -10.42)
+		(start 4.25 5.98)
+		(end 4.25 -10.42)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
 		(uuid "b28bf4c4-e5f3-49cc-b7ad-0e12f4965fa8")
-	)
-	(fp_line
-		(start 5.65 -10.48)
-		(end 1.75 -10.48)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Eco1.User")
-		(uuid "77e1386f-12fb-43d6-8349-b8ad92981311")
-	)
-	(fp_line
-		(start 5.65 -5.48)
-		(end 5.65 -10.48)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Eco1.User")
-		(uuid "9f5d15f3-4242-4c9a-b8d2-cf775b827084")
-	)
-	(fp_line
-		(start 5.65 5.48)
-		(end 5.65 5.98)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Eco1.User")
-		(uuid "f880824e-ad3c-4531-92a9-76b826af2e63")
-	)
-	(fp_line
-		(start 5.65 5.98)
-		(end 3.95 5.98)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Eco1.User")
-		(uuid "1c319afe-3a7a-4771-9f3b-4a7b6265adad")
 	)
 	(fp_line
 		(start -6.85 -10.72)
@@ -337,5 +297,16 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(thermal_bridge_angle 45)
 		(uuid "45567254-5d2f-432b-9d3d-be936029e9cb")
+	)
+	(model "${YZ_3D}/ESP32S3WROOM1N8R8--3DModel-STEP-269445.STEP"
+		(offset
+			(xyz 0 2 0)
+		)
+		(scale
+			(xyz 0.7 0.5 0.66)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
 	)
 )

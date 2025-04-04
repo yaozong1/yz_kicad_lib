@@ -1,0 +1,168 @@
+(footprint "GP.1575.25.2.A.02"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "2cf1d57a-8ce6-4324-bbe6-a1e65b53a67e")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "GP.1575.25.2.A.02"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8b927e03-1a2a-4acb-a771-ca1a5e923f0f")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4d8f3d2-1ecf-4bc6-9506-aa3769cff79a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e28b2418-28dc-4eb0-a12e-1043758b8324")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11b4e4cd-746a-45e3-9e14-2bbb4dc53ebd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -12.5 -8.5)
+		(end -12.5 8.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "50be4a18-000f-40d0-a161-c23f2cdc6729")
+	)
+	(fp_line
+		(start -8.5 12.5)
+		(end 8.5 12.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "860c972a-1311-4b14-9fb2-65deb1363c2d")
+	)
+	(fp_line
+		(start 8.5 -12.5)
+		(end -8.5 -12.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "35bc2a78-13c3-4827-ba07-853aee1a145d")
+	)
+	(fp_line
+		(start 12.5 8.5)
+		(end 12.5 -8.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "182ac3e2-1074-4969-b85a-f61a322afd3c")
+	)
+	(fp_arc
+		(start -12.5 -8.5)
+		(mid -11.328427 -11.328427)
+		(end -8.5 -12.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70213f12-98fe-49b5-bac8-f63f8a8a4a42")
+	)
+	(fp_arc
+		(start -8.5 12.5)
+		(mid -11.328427 11.328427)
+		(end -12.5 8.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a35232ff-f0a1-4c0d-ab50-e4a0aed4b745")
+	)
+	(fp_arc
+		(start 8.5 -12.5)
+		(mid 11.328427 -11.328427)
+		(end 12.5 -8.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f119955e-a8d0-4522-934c-c327b8984330")
+	)
+	(fp_arc
+		(start 12.5 8.5)
+		(mid 11.328427 11.328427)
+		(end 8.5 12.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94a41181-a42c-44db-a4d6-86bcd284f724")
+	)
+	(pad "1" thru_hole circle
+		(at 0 2.5)
+		(size 2 2)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "78673dc5-4be5-424e-96cb-75a91ab03519")
+	)
+	(model "${YZ_3D}/RF_Module/gps-antenna_2525.stp"
+		(offset
+			(xyz 0 0 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
