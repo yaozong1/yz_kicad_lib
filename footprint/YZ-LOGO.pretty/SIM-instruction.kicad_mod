@@ -1,0 +1,40 @@
+(footprint "SIM-instruction" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -6.5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f541c95b-ae3c-4394-a164-7613638ecb11)
+  )
+  (fp_text value "SIM-instruction" (at 0 13.5 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 1c4f6771-35d4-4472-a61c-15e093c391ea)
+  )
+  (fp_text user "LOCK" (at 1.5 1.8 180 unlocked) (layer "F.SilkS")
+      (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left bottom))
+    (tstamp 2118e252-29e7-482e-94d3-9e21947d72ec)
+  )
+  (fp_text user "OPEN" (at 1.6 0 180 unlocked) (layer "F.SilkS")
+      (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left bottom))
+    (tstamp 7eccaae6-b56f-45dc-bec5-6a5b6238ad94)
+  )
+  (fp_text user "${REFERENCE}" (at 0 15 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp d1d047e8-8a4d-47d1-9290-1fb9367ce7be)
+  )
+  (fp_poly
+    (pts
+      (xy -0.5 -0.25)
+      (xy 0.5 -0.25)
+      (xy 0 -1)
+    )
+
+    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 1dfa173e-f978-439e-8cfc-3c5f4714e972))
+  (fp_poly
+    (pts
+      (xy 0.5 3.15)
+      (xy -0.5 3.15)
+      (xy 0 3.9)
+    )
+
+    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 546067f1-4388-4fc3-b20b-7b8238a1b39c))
+)
