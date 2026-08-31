@@ -1,0 +1,203 @@
+(footprint "EFD25"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMT Gate Drive Transformer, 1:1, 7.1x6.1x5.5mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)")
+	(tags "pulse pa2777nl")
+	(property "Reference" "REF**"
+		(at 15.5 7.2 0)
+		(layer "F.SilkS")
+		(uuid "904de691-e990-445f-916e-55dba74e1fdd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "EFD25"
+		(at 2.51 6.235 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d3a6093-062d-4670-abf2-456d0ceff451")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 3.11 0.635 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "595bc416-9cdc-4ecd-85c8-ecbb9b3b08ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 3.11 0.635 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c8dd5c9f-01d4-4f1c-84be-dba921662f64")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.5 -3.56)
+		(end 32.5 20.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "eb5be2a5-bcec-4e20-af5c-6d0ec50a78ae")
+	)
+	(fp_poly
+		(pts
+			(xy -1.820918 -1.208102) (xy -3.900918 0.041898) (xy -3.900918 -2.958102)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "fc53a5ab-9cc8-4b76-af5b-eb977d546f8a")
+	)
+	(fp_rect
+		(start -1.25 -3.3)
+		(end 32.25 20.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "94e4eb29-9fd5-4a4b-8114-14d4e76d2d7d")
+	)
+	(fp_line
+		(start 0.41 -2.515)
+		(end -0.59 -1.515)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a9859efb-17e4-44f0-aefb-bf9a7448e0db")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 15.5 8.575 0)
+		(layer "F.Fab")
+		(uuid "818fd964-2ed2-4c49-9723-0c530af22cbd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(point
+		(at 0 -1.3)
+		(size 1)
+		(layer "F.SilkS")
+		(uuid "68b5ad8e-955f-4e63-9b04-af1c93138ce4")
+	)
+	(pad "1" smd rect
+		(at 0 -1.27)
+		(size 2.5 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8e986d85-1fef-4dac-88e8-4089afeabf7c")
+	)
+	(pad "2" smd rect
+		(at 0 3.7)
+		(size 2.5 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b3ae21c6-8a19-4b51-bea6-fd437eec079e")
+	)
+	(pad "3" smd rect
+		(at 0 8.7)
+		(size 2.5 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b3ae21c6-8a19-4b51-bea6-fd437eec079e")
+	)
+	(pad "4" smd rect
+		(at 0 13.7)
+		(size 2.5 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dd4bb230-75df-407e-b564-6bbd20292e13")
+	)
+	(pad "5" smd rect
+		(at 0 18.7)
+		(size 2.5 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "476b6d25-6751-4981-b54b-5a2593f57f31")
+	)
+	(pad "6" smd rect
+		(at 30.5 18.7)
+		(size 2.5 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f5d62b94-b833-41b2-831e-3e9908f49096")
+	)
+	(pad "7" smd rect
+		(at 30.5 13.7)
+		(size 2.5 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5bf1daca-2ddc-4adc-8f35-cf6fca15ee15")
+	)
+	(pad "8" smd rect
+		(at 30.5 8.7)
+		(size 2.5 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e75a9fc4-f6d4-4c24-a1a6-25f22605f79d")
+	)
+	(pad "9" smd rect
+		(at 30.5 3.7)
+		(size 2.5 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2de0acdc-53d8-49af-afe0-a2bd6f961d65")
+	)
+	(pad "10" smd rect
+		(at 30.5 -1.3)
+		(size 2.5 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c81f9931-bf5f-4655-8759-40179d478317")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Transformer_SMD.3dshapes/Pulse_PA2777NL.step"
+		(offset
+			(xyz 3.11 -0.635 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/yz_kicad_lib/3D/TC-Power/WE-PFC_EFD25.step"
+		(offset
+			(xyz 15.5 -9 6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

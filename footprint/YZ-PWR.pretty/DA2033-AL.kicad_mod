@@ -1,0 +1,199 @@
+(footprint "DA2033-AL"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.17705 -1.633491 0)
+		(layer "F.SilkS")
+		(uuid "a41f0d09-eecd-4469-aa7f-8702a92e99f8")
+		(effects
+			(font
+				(size 1.000299 1.000299)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DA2033-AL"
+		(at 2.716955 0.365255 0)
+		(layer "F.SilkS")
+		(uuid "0850790e-be85-4aab-a4ec-be4f44f2cb33")
+		(effects
+			(font
+				(size 1.000717 1.000717)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42119e0e-11c2-4651-9cb5-b72160d50e3d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d9c27e1-88f3-42db-9b8e-e46e6f429f50")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -8.5 -8.7)
+		(end 8.5 -8.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0735eefa-510c-4aaf-b6df-8ef630fad630")
+	)
+	(fp_line
+		(start -8.5 8.7)
+		(end -8.5 -8.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31b19397-c06f-485a-838a-9865812ca26e")
+	)
+	(fp_line
+		(start 8.5 -8.7)
+		(end 8.5 8.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf1f18ca-dbf5-4075-b63d-a9f785c53c83")
+	)
+	(fp_line
+		(start 8.5 8.7)
+		(end -8.5 8.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "45416046-d0c7-44c7-8bac-9559a80c3f68")
+	)
+	(fp_circle
+		(center -6.52 -6.99)
+		(end -5.7737 -6.99)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b141570b-d0d3-4809-a004-6aa2a265c7ce")
+	)
+	(pad "P$1" smd rect
+		(at -11.15 -6.35)
+		(size 3.3 1.79)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "4d41f172-5858-4a16-b8fc-91d7970a16b9")
+	)
+	(pad "P$2" smd rect
+		(at -11.15 -3.81)
+		(size 3.3 1.79)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "b46e198a-9e5e-4f0a-9393-8cbd52dcfb4c")
+	)
+	(pad "P$3" smd rect
+		(at -11.15 -1.27)
+		(size 3.3 1.79)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "9c3a334f-6f7a-43ce-9113-ba507ebb9b28")
+	)
+	(pad "P$4" smd rect
+		(at -11.15 1.27)
+		(size 3.3 1.79)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "212ab893-c375-414f-b0ec-f97b777ac1dd")
+	)
+	(pad "P$5" smd rect
+		(at -11.15 3.81)
+		(size 3.3 1.79)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "be3f827b-15db-4f03-967e-7fd4ad8dee5d")
+	)
+	(pad "P$6" smd rect
+		(at -11.15 6.35)
+		(size 3.3 1.79)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "fa6b7df0-9852-446b-b588-3bdcfe07c8da")
+	)
+	(pad "P$7" smd rect
+		(at 11.15 6.35)
+		(size 3.3 1.79)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "c4b8d164-3294-4500-a7cd-ebab75304478")
+	)
+	(pad "P$8" smd rect
+		(at 11.15 3.81)
+		(size 3.3 1.79)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "7bd8d095-ef6e-46e6-a95c-82c362646e4d")
+	)
+	(pad "P$9" smd rect
+		(at 11.15 1.27)
+		(size 3.3 1.79)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "fc6879bb-47fd-43d3-9421-d65573dd7052")
+	)
+	(pad "P$10" smd rect
+		(at 11.15 -1.27)
+		(size 3.3 1.79)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "c6293952-27f4-493b-9dbd-8142c7030ec2")
+	)
+	(pad "P$11" smd rect
+		(at 11.15 -3.81)
+		(size 3.3 1.79)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "bd45c7d6-3ee1-4128-be3c-092eb7c6bb6c")
+	)
+	(pad "P$12" smd rect
+		(at 11.15 -6.35)
+		(size 3.3 1.79)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "059749c0-6c30-4862-b2aa-7505b1995b66")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/yz_kicad_lib/3D/TC-Power/DA2033-AL.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
