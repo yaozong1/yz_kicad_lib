@@ -1,0 +1,190 @@
+(footprint "SMD-4"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "U11"
+		(at 3.2512 1.4224 90)
+		(layer "F.SilkS")
+		(uuid "c4e5ff1f-1394-4753-8c5d-395ee0ca68f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMD-4"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b69955f0-4449-4eb5-aac3-72bc2683bccf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51517d7b-625d-4852-8383-4fe1ad472429")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0c0f6cc-c16c-40dd-8889-abbeb5c1b0dd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "On Resistance" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c46bb89-593f-4e3b-97a3-9e8e194f6bea")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetfile "extension-board.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.52 -2.7)
+		(end 2.52 -2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20969563-6d1a-4d97-b7b9-82032d90cbf1")
+	)
+	(fp_line
+		(start -2.52 1.9)
+		(end -2.52 -2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40e6dcbd-dc44-443c-ba1b-b462006d7c6b")
+	)
+	(fp_line
+		(start -1.72 2.7)
+		(end -2.52 1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e9c805b7-069a-4a93-8363-fd0c853cbc43")
+	)
+	(fp_line
+		(start 2.52 -2.7)
+		(end 2.52 2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d9fc9e4-3b09-4e65-bebf-4a2beb48af20")
+	)
+	(fp_line
+		(start 2.52 2.7)
+		(end -1.72 2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0d1395a-5a3f-4225-9c56-eab853611970")
+	)
+	(fp_line
+		(start -2.27 -5.35)
+		(end 2.27 -5.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fa105f32-ebf0-4aca-a17c-7efc56f72488")
+	)
+	(fp_line
+		(start -2.27 5.35)
+		(end -2.27 -5.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f86b82d8-5726-4206-a71c-9852e1ef3538")
+	)
+	(fp_line
+		(start 2.27 -5.35)
+		(end 2.27 5.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "24e55653-b3d8-46ad-8e03-7975556a5966")
+	)
+	(fp_line
+		(start 2.27 5.35)
+		(end -2.27 5.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c4040b81-7164-4ca8-b732-5dfe17ef3b07")
+	)
+	(pad "1" smd rect
+		(at -1.27 4.15)
+		(size 1.5 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4d81fbf5-7a1f-4ed0-925e-679d16fd8500")
+	)
+	(pad "2" smd rect
+		(at 1.27 4.15)
+		(size 1.5 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ed1ffbc3-0784-4846-9578-a91efb5e3c77")
+	)
+	(pad "3" smd rect
+		(at 1.27 -4.15)
+		(size 1.5 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e1b00c7f-b801-45d0-8d74-248e09ba4560")
+	)
+	(pad "4" smd rect
+		(at -1.27 -4.15)
+		(size 1.5 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9edf1c63-f5a2-4b49-af24-b27ca6062803")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/yz_kicad_lib/3D/Yaozong-3D/PC817X2NIP0F--3DModel-STEP-56544.STEP"
+		(offset
+			(xyz 0 0 -0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
