@@ -12838,7 +12838,7 @@
 			(pin power_in line
 				(at -16.51 7.62 0)
 				(length 5.08)
-				(name "GND"
+				(name "M_PWR"
 					(effects
 						(font
 							(size 1.27 1.27)
